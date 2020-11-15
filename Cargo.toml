@@ -1,5 +1,5 @@
 [package]
-name = "block_on"
+name = "block_on_proc"
 version = "0.1.0"
 authors = ["Drazen Urch <drazen@urch.eu>"]
 edition = "2018"
