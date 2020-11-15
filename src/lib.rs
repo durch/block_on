@@ -7,7 +7,7 @@ use syn::{parse_macro_input, Block, FnArg, Ident, ImplItem, ItemImpl, LitStr};
 ///
 /// # Example `tokio`
 /// ```
-/// use block_on::block_on;
+/// use block_on_proc::block_on;
 ///
 /// struct Tokio {}
 ///
@@ -33,7 +33,7 @@ use syn::{parse_macro_input, Block, FnArg, Ident, ImplItem, ItemImpl, LitStr};
 ///
 /// # Example `async-std`
 /// ```
-/// use block_on::block_on;
+/// use block_on_proc::block_on;
 ///
 /// struct AsyncStd {}
 ///
