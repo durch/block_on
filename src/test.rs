@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-use block_on::block_on;
+use block_on_proc::block_on;
 struct Tokio {}
 struct AsyncStd {}
 
