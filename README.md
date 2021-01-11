@@ -5,6 +5,7 @@
 
  ### Example `tokio`
  ```rust
+ // Requires tokio rt and rt-multi-thread features
  use block_on::block_on;
 
  struct Tokio {}
