@@ -60,7 +60,7 @@ use syn::{parse_macro_input, Block, FnArg, Ident, ImplItem, ItemImpl, LitStr};
 pub fn block_on(attr: TokenStream, tokens: TokenStream) -> TokenStream {
     let attr = parse_macro_input!(attr as LitStr).value();
 
-    let orig_tokens = tokens.clone();
+    let orig_tokens = tokens;
 
     let in_impl = parse_macro_input!(orig_tokens as ItemImpl);
     let strct = in_impl.self_ty.clone();
